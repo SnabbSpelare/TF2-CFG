@@ -10,11 +10,19 @@ I am creating a stable, easy-to-use version of my personal configuration. This b
 - [Removed console commands](#-hidden-console-commands)
 - [Configuration Warnings](#️-configuration-warnings)
 
+### Better cvar comments
+
+This is a so far small collection of better written comment. Credit is attached to each!
+
+r_propsmaxdist — Sets the mximum distance which props are visable. [Credit](https://www.teamfortress.tv/21627/toaster-fps-autoexec-cfg)
+
 ### 🔒 Hidden console commands
+
+A list of cvars that are hidden from autocompletion.
 
 `mat_forcemanagedtextureintohardware 0`
 
-`mat_parallaxmap 0` — ⚠️ May crash and cause temporary stuttering. [See Configuration Warnings](#️-configuration-warnings)
+`mat_parallaxmap 0` — ⚠️ May crash and cause temporary stuttering. [See Configuration Warnings](#️-configuration-warnings) Issued a [bug report](https://github.com/ValveSoftware/Source-1-Games/issues/8365#issue-5790296632)
 
 ### 🗑️ Removed console commands
 
